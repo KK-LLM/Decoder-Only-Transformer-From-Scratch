@@ -353,7 +353,7 @@ The US and New York state governments are working on the Hudson River Greenway, 
 
 ### 运行评测
 
-将 `checkpoint_epoch_0007.pt` 放入 `weights/pretrain/`，在项目根目录运行：
+下载 [checkpoint_epoch_0007.pt](https://github.com/KK-LLM/decoder-only-transformer-from-scratch/releases/download/pretrain-epoch-7/checkpoint_epoch_0007.pt)，放入 `weights/pretrain/`，在项目根目录运行：
 
 ```bash
 python decoder-only-pretrain/scripts/evaluate_checkpoint.py \
