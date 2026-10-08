@@ -1,0 +1,41 @@
+# Local project/transfer state
+.handoff/
+.idea/
+.vscode/
+.DS_Store
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local-only files excluded from publication
+/requirements.txt
+/chat_checkpoint7.py
+
+# External weights, full corpora and generated runs
+/weights/
+/outputs/
+/datasets_pretrain/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+/decoder-only-pretrain/data/train/
+/decoder-only-pretrain/data/valid/
+/decoder-only-pretrain/data/tokenized_manifest.json
+/decoder-only-pretrain/checkpoints*/
+/data_preparation/raw/
+/data_preparation/final/
+/data/**
+!/data/README.md
+
+# Keep the training log, original model answers, final question bank,
+# documentation, source code and SentencePiece .model file.
